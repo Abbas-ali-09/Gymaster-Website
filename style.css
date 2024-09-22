@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Lemon&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Acme", sans-serif;
+}
+
+body {
+  background-color: #051805;
+  color: #ccd5ae;
+}
+
+/* logo */
+
+.logo {
+  color: #ccd5ae;
+  font-family: "Lemon", serif;
+}
+
+/* navbar */
+
+.navbar,
+.navbar-brand,
+.nav-link {
+  background-color: #051805;
+  color: #ccd5ae;
+}
+
+.nav-link:hover {
+  color: #cb997e;
+}
+
+.button-1 {
+  background-color: #ccd5ae;
+  color: #051805;
+}
+
+.button-1:hover {
+  border: 2.2px solid #ccd5ae;
+  color: #ccd5ae;
+}
+
+/* login  /  Registration */
+
+.reg-img {
+  padding: 5rem;
+}
+
+.box {
+  padding: 2rem;
+  border: 5px solid #ccd5ae;
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+}
+
+.button {
+  color: #051805;
+  background-color: #ccd5ae;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  border-radius: 2rem;
+}
+
+.btn {
+  border-radius: 2rem;
+}
+.button:hover {
+  border: 2.2px solid #ccd5ae;
+  transform: scale(1.2);
+  color: #ccd5ae;
+}
+
+.link-style {
+  text-decoration: none;
+}
+
+/* Footer Section */
+
+.logo-f {
+  color: #ccd5ae;
+  font-family: "Lemon", serif;
+  margin-left: 1rem;
+}
+
+.logo-f:hover {
+  color: transparent;
+  -webkit-text-stroke: 1.7px #ccd5ae;
+}
+
+.footer-p {
+  text-align: start;
+  margin: 1rem;
+}
+
+.footer-img img {
+  width: 25px;
+  display: inline;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+
+.footer-heading {
+  margin-bottom: 1rem;
+}
+
+.ul-list li {
+  list-style: none;
+  text-align: start;
+}
+
+.ul-list-4 {
+  list-style: none;
+}
+
+.footer-contact-img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.developer {
+  text-align: left;
+  margin: 0 0 0.2rem 1rem;
+}
+
+/*  Index/main Page Style  */
+
+/* conatiner 1 */
+
+.section-1 {
+  margin-top: 4rem;
+}
+
+.index-title {
+  font-size: 3rem;
+  padding-left: 1rem;
+  font-family: "Lemon", serif;
+}
+
+.title-style {
+  color: transparent;
+  -webkit-text-stroke: 3px #cb997e;
+  font-family: "Lemon", serif;
+}
+
+.title-style:hover {
+  color: #cb997e;
+}
+/* conatiner 2 */
+
+.home-box {
+  margin: 1rem;
+  padding: 1rem;
+  color: #ccd5ae;
+  border: 5px solid #ccd5ae;
+  border-radius: 3rem;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.home-box:hover {
+  transform: scale(1.15);
+  color: #cb997e;
+  border: 5px solid #cb997e;
+}
+
+/*  conntainer-3  */
+
+.section-3 {
+  margin-top: 1rem;
+}
+
+.section-3 h3 {
+  color: #ccd5ae;
+}
+
+#about {
+  font-size: 2.5rem;
+}
+
+.about-logo {
+  color: transparent;
+  -webkit-text-stroke: 2px #cb997e;
+  font-family: "Lemon", serif;
+}
+
+.about-logo:hover {
+  color: #cb997e;
+}
+
+.about-text {
+  padding-left: 1rem;
+}
+
+.about-h {
+  font-size: 3rem;
+}
+
+.about-info {
+  font-size: 1.3rem;
+  text-align: start;
+}
+
+/* conatiner 4 */
+
+.section-4 {
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+  background-image: url("img/gym-background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section-4-h {
+  font-size: 3rem;
+  text-align: center;
+  color: #ccd5ae;
+}
+
+.section-4-p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #ccd5ae;
+}
+
+.body-card-4 {
+  margin: 2rem;
+  transition: all 0.5s;
+  text-align: center;
+  background-color: #ccd5ae;
+}
+
+.body-card-4 h4 {
+  color: #051805;
+}
+
+.body-card-4:hover {
+  transform: scale(1.1);
+}
+
+.body-card-4 img {
+  margin-bottom: 10px;
+  height: 350px;
+  /* object-fit: cover; */
+}
+
+/*  container 5  */
+
+.section-5 {
+  margin-top: 1.5rem;
+}
+.section-5-h {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.section-5-p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.body-card-5 {
+  margin: 2rem;
+  padding: 1rem 2rem;
+  transition: all 0.5s;
+  border-radius: 1.5rem;
+  color: #051805;
+  background-color: #ccd5ae;
+}
+
+.body-card-5:hover {
+  transform: scale(1.12);
+}
+
+.btn-p {
+  background-color: #ccd5ae;
+  color: #051805;
+  border: 2px solid #051805;
+  width: 100%;
+}
+
+.btn-p:hover {
+  background-color: #051805;
+  color: #ccd5ae;
+  border: 2px solid #051805;
+}
+
+/*  container 6  */
+
+.section-6 {
+  margin-top: 1.5rem;
+}
+
+.section-6-h {
+  font-size: 3.5rem;
+  margin-left: 1rem;
+  text-align: start;
+}
+
+.section-6-p {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  text-align: start;
+  padding: 0 2rem 0 0;
+}
+
+/*  container 7  */
+
+.section-7 {
+  padding: 6rem 0.3rem;
+  background-image: url("img/gym-background-2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section-7-h {
+  font-size: 3.2rem;
+  text-align: center;
+  color: #ccd5ae;
+}
+
+.section-7-p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #ccd5ae;
+  stroke-dashoffset: 1rem;
+}
